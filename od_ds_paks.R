@@ -1,4 +1,14 @@
 
+
+install_github("leonawicz/mapmate")
+install_github("wjrl/RBioFabric")
+library(mapmate)
+library(RBioFabric)
+
+library(ggplot2)
+library(jsonlite)
+library(plyr)
+
 library(RJSONIO)
 library(ggmap)
 library(geosphere)

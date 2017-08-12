@@ -1,10 +1,4 @@
 
-
-install_github("leonawicz/mapmate")
-install_github("wjrl/RBioFabric")
-library(mapmate)
-library(RBioFabric)
-
 library(ggplot2)
 library(jsonlite)
 library(plyr)
@@ -37,3 +31,7 @@ library(raster)
 library(RBioFabric)
 library(HiveR)
  
+install_github("leonawicz/mapmate")
+install_github("wjrl/RBioFabric")
+library(mapmate)
+library(RBioFabric)

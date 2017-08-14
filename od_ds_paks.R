@@ -2,7 +2,6 @@
 library(ggplot2)
 library(jsonlite)
 library(plyr)
-
 library(RJSONIO)
 library(ggmap)
 library(geosphere)
@@ -19,7 +18,6 @@ library(threejs)
 library(networkD3)
 library(visNetwork)
 library(maps)
-library(ggmap)
 library(mapdata)
 library(mapproj)
 library(maptools)
@@ -28,12 +26,8 @@ library(classInt)
 #library(rgdal)
 library(scales)
 library(raster)
-library(RBioFabric)
 library(HiveR)
- 
 install_github("leonawicz/mapmate")
 install_github("wjrl/RBioFabric")
-
-library(mapmate)
 library(RBioFabric)
 
